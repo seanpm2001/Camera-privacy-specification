@@ -21,42 +21,125 @@ Note: due to limitations with GitHub's interpretation of markdown (and pretty mu
 
 </details>
 
+Note: currently, translations in languages other than English only apply to version 2. You must speak English to use this specification until a verified translation for the latest version is available.
+
 ---
 
 Applies to: every digital device that uses a camera of any image/video/audio quality. The main focus goes to a lid that covers the camera entirely.
 
 ## Lid
 
+### Definition
+
+![Graphics/Lid/GIF/LID.gif](/Graphics/Lid/GIF/LID.gif)
+
+A lid is a cover that slides over the camera, preventing it from recording anything but the lid.
+
 A rollover lid must be applicable to every camera. The lid must be 100% opaque, with absolutely no transparency/translucency, and it must be durable enough to last 50 or more years. The lid cannot be connected to any wireless connection, including but not limited to:
 
 - Wi-Fi
+
 - BlueTooth
+
 - LAN
+
 - WLAN
+
 - 1x data
+
 - 2G data
+
 - 3G data
+
 - 4G data
+
 - 5G data
+
 - 6G data
+
 - Cloud
+
+### Detachability and software support
 
 The lid must be detachable with open source software, and there has to be a choice for the user to choose a different lid opening software/application if needed. Creators of lid opening software must follow this specification as well. The software for the lid cannot rely on system time or UNIX time, and must be 64 bit. The lid cannot be locked to expire at a certain date.
 
+### Opening and closing
+
 The lid must take no more than 10 seconds to open and close electronically or manually (For manual opening, the user can take however long they want, but it must be doable within 10 seconds, even by an infant). The lid must be able to be closed or opened both with software, and with manual force (even with the hand of a weak infant) the lid must be secure.
+
+### Additional cameras, Internet connnections, and virtual assistants
 
 The lid cannot contain additional cameras or other tracking devices. The lid cannot integrate with "smart" software assistants/virtual assistants, including but not limited to:
 
 * Google Assistant
+
 * Samsung Bixby
+
 * Amazon Alexa
+
 * Apple Siri
+
+### Inclusion with the device
 
 The lid must be included with the device, it cannot be a separate component. The lid must be repairable and replaceable at any time, with or without a device warranty.
 
-The lid specification must be followed in its entirety, without cherrypicking. You must always follow the latest version of the lid specification from the original author.
+### Following the specification
 
-The lid cannot contain any labels that persuade the user not to use the lid. You are allowed to put your company logo on the lid, but it can't damage its lifespan.
+The lid specification must be followed in its entirety, without cherrypicking. You must always follow the latest version of the lid specification from the original author, even if it is not available in your native language.
+
+Note: currently, translations in languages other than English only apply to version 2. You must speak English to use this specification until a verified translation for the latest version is available.
+
+### Additional cameras
+
+The lid itself cannot contain cameras on it or around it. Any other cameras must also come with a lid with all the same rules listed in this specification.
+
+### Specification application
+
+The specification applies to all users, including but not limited to the user, the government, corporations, foundations, organizations, communities, etc.
+
+### Lid labels
+
+The lid cannot contain any labels that persuade the user not to use the lid. You are allowed to put your company logo on the lid, but it can't damage its lifespan or suggest that the lid is faulty.
+
+### License
+
+The software for the lid can only be applied under the following licenses:
+
+- GNU General Public License [V2 or later]
+
+- MIT No Attribution License
+
+- BSD Zero Clause License
+
+The lid specification is covered by the GNU General Public License version 3.
+
+### Pending approval
+
+The specification is pending approval from the following computer manufacturing companies and brands:
+
+- [ ] Dell
+
+- [ ] Asus
+
+- [ ] Acer
+
+- [ ] Alienware
+
+- [ ] Microsoft Corp
+
+- [ ] Google LLC/Alphabet Inc
+
+- [ ] Samsung
+
+- [ ] Huawei
+
+- [ ] Apple Inc.
+
+- [ ] IBM
+
+- [ ] Nintendo
+
+- [ ] Other/unlisted
 
 ***
 
@@ -64,7 +147,7 @@ The lid cannot contain any labels that persuade the user not to use the lid. You
 
 <details open><summary><p>Click/tap here to expand/collapse this section</p></summary>
 
-**Specification version:** `2 (2022, Sunday, January 23rd at 3:32 pm)`
+**Specification version:** `3 (2022, Wednesday, January 26th at 3:47 pm)`
 
 **Changelog**
 
@@ -88,9 +171,19 @@ The lid cannot contain any labels that persuade the user not to use the lid. You
 
 - Removed English specific HTML semantic tags
 
-**Extra:** The word `lid` was used `24` times in this article
+**V3:**
 
-**Line count (including blank lines and compiler line):** `108`
+- Fixed more loopholes
+
+- Added a lid definition
+
+- Separated the specification into chapters
+
+- Added licensing info
+
+**Extra:** The word `lid` was used `34` times in this article
+
+**Line count (including blank lines and compiler line):** `201`
 
 **File type:** `Markdown (*.md *.mkd *.mdown *.markdown)`
 
