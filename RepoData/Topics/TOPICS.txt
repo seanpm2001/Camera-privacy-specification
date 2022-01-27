@@ -1,0 +1,15 @@
+privacy 
+camera
+article
+gplv3
+specification
+md
+txt
+gpl3
+camera-specification
+hardware-longevity
+camera-lid
+camera-privacy-specification
+pro-privacy
+camera-privacy
+device-specification
