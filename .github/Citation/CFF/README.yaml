@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this project (device specification article) please cite it below:"
+# preferred-citation:
+  # type: data
+authors:
+- family-names: "Myrick"
+  given-names: "Sean P. Myrick"
+  # orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Git-Templates"
+version: 1.0.0
+# doi: 10.5281/zenodo.1234
+date-released: 2022-01-26
+url: "https://github.com/seanpm2001/Git-Templates"
+cff-version: 1.2.0
+message: "If you use this project (device specification article) please cite it below:"
+authors:
+- family-names: "Myrick"
+  given-names: "Sean P. Myrick"
+  # orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Camera privacy specification by @seanpm2001"
+version: 2.0.4
+doi: 10.5281/zenodo.1234
+date-released: 2022-01-26
+url: "https://github.com/seanpm2001/Camera-privacy-specification"
+preferred-citation:
+  type: data
+  authors:
+  - family-names: "Myrick family"
+    given-names: "Sean P. Myrick"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  doi: "10.0000/00000"
+  journal: "Journal Title"
+  month: 1
+  start: 1 # First page number
+  end: 10000 # Last page number
+  title: "This privacy specification ensures that users get privacy whenever they want from their personal computing devices. I am using this project for <reason>"
+  issue: 1
+  volume: 1
+  year: 2022
+# File info
+# File version: 1 (2022, Wednesday, January 26th at 4:08 pm)
+# File type: CFF Citation file (*.cff)
+# Line count (including blank lines and compiler line): 44
