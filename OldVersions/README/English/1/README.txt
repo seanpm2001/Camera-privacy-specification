@@ -1,5 +1,4 @@
 
-
 ***
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse this entire page.</b></p></summary>
@@ -7,6 +6,12 @@
 # Camera privacy specification
 
 _A hardware specification for increasing privacy in all device cameras._
+
+Share this article:
+
+```
+https://github.com/seanpm2001/Camera-privacy-specification?tab=readme-ov-file#camera-privacy-specification
+```
 
 ***
 
@@ -80,6 +85,8 @@ Note: currently, translations in languages other than English only apply to vers
 
 **Applies to:** every digital device that uses a camera of any image/video/audio quality. The main focus goes to a lid that covers the camera entirely.
 
+This specification is in the process of being made more user friendly.
+
 <table>
   <tr>
     <td>
@@ -118,9 +125,9 @@ Note: currently, translations in languages other than English only apply to vers
 |---|
 | ℹ️ Example of a lid sliding over a webcam |
 
-A lid is a cover that slides over the camera, preventing it from recording anything but the lid. When the lid is active, the webcam cannot record anything.
+A lid is a cover that slides over the camera, preventing it from recording anything but the lid. When the lid is active, the [`webcam`](#Webcam) cannot record anything.
 
-A rollover lid must be applicable to every camera. The lid must be 100% opaque, with absolutely no transparency/translucency, and it must be durable enough to last 50 or more years (as part of [:octocat: `Hardware Longevity`](https://github.com/Seanpm2001/Hardware-Longevity/)) 
+A [`rollover lid`](#Rollover-lid) must be applicable to every camera. The lid must be 100% [`opaque`](#Opaque), with absolutely no [`transparency`](#Transparency) / [`translucency`](#translucency), and it must be durable enough to last 50 or more years (as part of [:octocat: `Hardware Longevity`](https://github.com/Seanpm2001/Hardware-Longevity/)) 
 
 </details> <!-- End of lid definition section !-->
 
@@ -130,7 +137,7 @@ A rollover lid must be applicable to every camera. The lid must be 100% opaque, 
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse the wireless connectivity section.</b></p></summary>
 
-The lid cannot be connected with any wireless connection, including but not limited to:
+The lid cannot be connected with any wireless connection type, including but not limited to:
 
 <table>
   <tr>
@@ -160,7 +167,7 @@ This means that the lid cannot be controlled by any wireless mean, the lid must 
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse the detachability and software support section.</b></p></summary>
 
-The lid must be detachable with open source software, and there has to be a choice for the user to choose a different lid opening software/application if needed. Creators of lid opening software must follow this specification as well. The software for the lid cannot rely on system time or UNIX time, and must be 64 bit. The lid cannot be locked to expire at a certain date.
+The lid must be detachable with [open source software](#Open-source-software), and there has to be a [`choice`](#Choice) for the user to choose a different [`lid opening software`](#Lid-opening-software)/application if needed. Creators of lid opening software must follow this specification as well. The software for the lid cannot rely on [`system time`](#System-time) or [`UNIX time`](#UNIX-Time), and must be [`64 bit`](#64-bit) or higher. The lid cannot be locked to [`expire at a certain date`](#Expiration).
 
 </details> <!-- End of detachability and software support section !-->
 
@@ -170,7 +177,7 @@ The lid must be detachable with open source software, and there has to be a choi
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse the opening and closing section.</b></p></summary>
 
-The lid must take no more than 10 seconds to open and close electronically or manually (For manual opening, the user can take however long they want, but it must be doable within 10 seconds, even by an infant). The lid must be able to be closed or opened both with software, and with manual force (even with the hand of an infant) the lid must be secure.
+The lid must take no more than 10 seconds to open and close electronically or [`manually`](#Manually) (For manual opening, the user can take however long they want, but it must be doable within 10 seconds, even by an infant). The lid must be able to be closed or opened both with software, and with manual force (even with the hand of an infant) the lid must be secure.
 
 </details> <!-- End of opening and closing section !-->
 
@@ -180,7 +187,7 @@ The lid must take no more than 10 seconds to open and close electronically or ma
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse the Additional cameras, Internet connnections, and virtual assistants section.</b></p></summary>
 
-The lid cannot contain additional cameras (a webcam on a webcam) or other tracking devices. The lid cannot integrate with "smart" software assistants/virtual assistants, including but not limited to:
+The lid cannot contain additional cameras (such as a webcam on a webcam, a webcam on the lid itself, etc.) or other [`tracking devices`](#Tracking-devices). The lid cannot integrate with [`"smart" software assistants/virtual assistants`](#Smart-software-assistants), including but not limited to:
 
 <table>
   <tr>
@@ -203,7 +210,7 @@ The lid cannot contain additional cameras (a webcam on a webcam) or other tracki
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse the covering the webcam light section.</b></p></summary>
 
-The lid cannot cover the light that indicates that the Webcam is turned on, either while the lid is open or closed.
+The lid cannot cover the [`light`](#Indicator-light) that indicates that the Webcam is turned on, either while the lid is open or closed.
 
 </details> <!-- End of covering the webcam light section !-->
 
@@ -213,7 +220,7 @@ The lid cannot cover the light that indicates that the Webcam is turned on, eith
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse the inclusion with the device section.</b></p></summary>
 
-The lid must be included with the device, it cannot be a separate component, or an attachment. The lid must be repairable and replaceable at any time, with or without a device warranty. Destruction of the lid should not destroy the rest of the device.
+The lid must be included with the device, it cannot be a [`separate component`](#Separate-component), or an [`attachment`](#Attachment). The lid must be [`repairable`](#Right-to-repair) and replaceable at any time, with or without a [`device warranty`](#Device-warranty). Destruction of the lid should not [`destroy the rest of the device`](#Destroy-the-rest-of-the-device).
 
 </details> <!-- End of Inclusion with the device section !-->
 
@@ -223,7 +230,7 @@ The lid must be included with the device, it cannot be a separate component, or 
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse the following the specification section.</b></p></summary>
 
-The lid specification must be followed in its entirety, without cherrypicking. You must always follow the latest version of the lid specification from the original author, even if it is not available in your native language.
+The lid specification must be followed in its entirety, without [`cherrypicking`](#Cherrypicking). You must always follow the latest version of the lid specification from the original author, even if it is not available in your native language.
 
 Note: currently, translations in languages other than English only apply to version 2. You must speak English to use this specification until a verified translation for the latest version is available.
 
@@ -255,7 +262,7 @@ The specification applies to all users, including but not limited to the user, t
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse the lid labels section.</b></p></summary>
 
-The lid cannot contain any labels that persuade the user not to use the lid. You are allowed to put your company logo on the lid, but it can't damage its lifespan or suggest that the lid is faulty.
+The lid cannot contain any [`labels`](#Labels) that persuade the user not to use the lid. You are allowed to put your [`company logo`](#Branding) on the lid, but it can't damage its lifespan or suggest that the lid is faulty.
 
 </details> <!-- End of Lid labels section !-->
 
@@ -265,28 +272,28 @@ The lid cannot contain any labels that persuade the user not to use the lid. You
 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse the License section.</b></p></summary>
 
-The software for the lid can only be applied under the following licenses:
+The software for the lid can only be applied under the following [`licenses`](#Software-license):
 
 <table>
   <tr>
     <td>
 
-- GNU General Public License v2 (GPL-2.0)
-- GNU General Public License v3 (GPL-3.0)
-- GNU Affero General Public License v1 (AGPL-1.0-only)
-- GNU Affero General Public License v3 (AGPL-3.0-only)
-- MIT No Attribution License (MIT-0)
-- BSD Zero Clause License (0BSD)
-- The Unlicense (Unlicense)
-- Vim License (Vim)
-- WTFPL (do What The F*ck You Want Public License) (WTFPL)
-- Creative Commons Zero (CC0-1.0)
+- [`GNU General Public License v2 (GPL-2.0)`](#GNU-General-Public-License-v2)
+- [`GNU General Public License v3 (GPL-3.0)`](#GNU-General-Public-License-v3)
+- [`GNU Affero General Public License v1 (AGPL-1.0-only)`](#GNU-Affero-General-Public-License-v1)
+- [`GNU Affero General Public License v3 (AGPL-3.0-only)`](#GNU-Affero-General-Public-License-v3)
+- [`MIT No Attribution License (MIT-0)`](#MIT-No-Attribution-License)
+- [`BSD Zero Clause License (0BSD)`](#BSD-Zero-Clause-License)
+- [`The Unlicense (Unlicense)`](#The-Unlicense)
+- [`Vim License (Vim)`](#Vim-License)
+- [`WTFPL (do What The F*ck You Want Public License) (WTFPL)`](#WTFPL)
+- [`Creative Commons Zero (CC0-1.0)`](#Creative-Commons-Zero)
 
     </td>
   </tr>
 </table>
 
-The lid specification is covered by the GNU General Public License version 3. Source code for the lid software must be made available to all users.
+The lid specification is covered by the GNU General Public License version 3. [`Source code`](#Source-code) for the lid software must be made available to all users.
 
 </details> <!-- End of License section !-->
 
@@ -318,6 +325,8 @@ The specification is pending approval from the following computer manufacturing 
 - [ ] System76
 - [ ] Other/unlisted
 
+It is anticipated that one of these manufacturers will include this specification in their devices.
+
 </details> <!-- End of Pending approval section !-->
 
 ---
@@ -332,9 +341,182 @@ _End of specification._
 
 <details open><summary><p>Click/tap here to expand/collapse this section</p></summary>
 
-**Specification version:** `4 (2024, Tuesday, October 15th at 12:12 pm PST)`
+**Specification version:** `5 (2024, Saturday, October 19th at 03:36 pm PST)`
 
 </details> <!-- End of additional info section !-->
+
+***
+
+## Definitions
+
+<details open><summary><p>Click/tap here to expand/collapse this section</p></summary>
+
+### Webcam
+
+A webcam is a camera that is capable of streaming to the Internet. It is normally part of a computer in the top middle, or is separate, and is attached to the screen.
+
+### Rollover Lid
+
+A rollover lid is a lid that can roll open and roll closed.
+
+### Opaque
+
+Opaque is the opposite of transparent. If something is 100% opaque, you cannot see through it. If something is 10% opaque, you can see through it.
+
+### Transparency
+
+Transparency is the opposite of opaque. If something is 100% transparent, you can see through it. If something is 0% transparent, you cannot see through it.
+
+### Translucency
+
+
+### Open source software
+
+Open Source software is software that has its source code publicly available. You can see, modify, and redistribute the source code (often under license terms) not to be confused with shared source software, which is software where you have to get special permission to see the source code, and you can't redistribute it.
+
+### Choice
+
+In this context, choice means option. If the user wants to use the lid, they can choose to open it. If the user does not want to open the lid, they can choose to keep it closed. Nobody else can take away this choice.
+
+### Lid opening software
+
+Lid opening software is software that is programmed to open the lid of the camera.
+
+### System time
+
+System time is the time a computer uses. In this context, it means that the time on the computers clock can't determine when or why the lid will open.
+
+### UNIX Time
+
+UNIX time is a form of system time for UNIX-like operating systems, such as Linux, Android, MacOS, iOS, BSD, and more. Time is represented with a number, which increases with every second that passes since the time 1970, January 1st at 12:00:00 am.
+
+### 64 bit
+
+64 bit computing is computing with a processor that can handle 64 bits (2^64=9,223,372,036,854,775,807) this has implications on system time, especially UNIX time. On 32 bit systems (2^32=4,294,967,296) UNIX time stops in the year 2038, but with 64 bit time, it can go for millions of years.
+
+### Expiration
+
+In this context, expiration means software that stops working after a certain point/date.
+
+### Manually
+
+Manually doing something is doing something without the aid of a computeer.
+
+### Indicator light
+
+The indicator light on a webcam is a light that comes on to tell you that the webcam is recording.
+
+### Separate component
+
+The lid cannot be a separate component, meaning the lid must be included with the computer.
+
+### Attachment
+
+The lid cannot be an add-on attachment to the device, it should be included with the computer.
+
+### Right to repair
+
+The right to repair is the right to modify and fix a device owned by the user that is damaged or broken. It is an important right. Without it, computers are thrown away and wasted, instead of being repaired. This costs resources and money.
+
+### Device warranty
+
+A device warranty is a warranty that covers the support of a computing device for a certain amount of time after purchase, where tech support and repairs are cheaper.
+
+### Destroy the rest of the device
+
+If moving the lid damages or destroys the rest of the device, it is a violation of the specification.
+
+### Cherrypicking
+
+[`Wikipedia:Cherry picking v1246738244`](https://en.wikipedia.org/w/index.php?title=Cherry_picking&oldid=1246738244&useskin=monobook)
+
+> Cherry picking, suppressing evidence, or the fallacy of incomplete evidence is the act of pointing to individual cases or data that seem to confirm a particular position while ignoring a significant portion of related and similar cases or data that may contradict that position. Cherry picking may be committed intentionally or unintentionally.
+
+### Software license
+
+A software license is a license that tells you what you can and cannot do with a piece of software.
+
+### Labels
+
+Labels that discourage the usage of the lid are discouraged.
+
+### Branding
+
+Branding is allowed on the lid. You can put your company logo on the lid, so long as it doesn't interfere with its functionality.
+
+### Source code
+
+Source code is the data that makes up computer software.
+
+### Tracking devices
+
+A tracking device is a software/hardware component that listens, and collects user information with or without the users permission.
+
+### Smart software assistants
+
+A "smart" software assistant, or virtual assistant, is a voice guided software tool that listens to voice commands, and gives responses to them.
+
+### GNU General Public License v2
+
+GNU-General-Public-License-v2-(GPL-2.0)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+### GNU General Public License v3
+
+GNU-General-Public-License-v3-(GPL-3.0)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+### GNU Affero General Public License v1
+
+GNU-Affero-General-Public-License-v1-(AGPL-1.0-only)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+### GNU Affero General Public License v3
+
+GNU-Affero-General-Public-License-v3-(AGPL-3.0-only)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+### MIT No Attribution License
+
+MIT-No-Attribution-License-(MIT-0)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+### BSD Zero Clause License
+
+BSD-Zero-Clause-License-(0BSD)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+### The Unlicense
+
+The-Unlicense-(Unlicense)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+### Vim License
+
+Vim-License-(Vim)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+### WTFPL
+
+WTFPL-(do-What-The-F*ck-You-Want-Public-License)-(WTFPL)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+### Creative Commons Zero
+
+Creative-Commons-Zero-(CC0-1.0)
+
+[`Check the SPDX identifier site for more information`](https://spdx.org/licenses/)
+
+</details> <!-- End of definitions section !-->
 
 ***
 
@@ -342,9 +524,21 @@ _End of specification._
 
 <details open><summary><p>Click/tap here to expand/collapse this section</p></summary>
 
-**Extra:** The word `lid` was used `65` times in this article (including in source code comments) (as of V4)
+**Extra:** The word `lid` was used `84` times in this article (including in source code comments) (as of V5)
 
-</details>
+</details> <!-- End of Extras section !-->
+
+***
+
+## See also
+
+<details open><summary><p>Click/tap here to expand/collapse this section</p></summary>
+
+- [:octocat: `Open Source Security Camera Specification`](https://github.com/seanpm2001/Open-source-security-camera/) - Pairs well with the Camera Privacy Specification, this project is about free and open source security cameras.
+- [:octocat: `LapLight`](https://github.com/seanpm2001/LapLight/) - Another hardware specification, this one is about flashlight functionality being added to laptops
+- [:octocat: `CamCamPlus (CC+)`](https://github.com/seanpm2001/CamCamPlus/) - A camera project that aims to be compliant with the camera privacy specification.
+
+</details> <!-- End of See also section !-->
 
 ***
 
@@ -359,12 +553,12 @@ _End of specification._
     <td>
 
 - **File type:** `Markdown (*.md *.mkd *.mdown *.markdown)`
-- **File version:** `4 (2024, Tuesday, October 15th at 12:25 pm PST)` <!-- TODO: This line should be updated daily !-->
-- **Line count (including blank lines and compiler line):** `0,519` <!-- This line doesn't need to be updated daily !-->
-- **Word count:** `03,466` <!-- TODO: This line should be updated daily !-->
-- **Character count (including spaces):** `23,101` <!-- TODO: This line should be updated daily !-->
-- **Character count (excluding spaces):** `19,891` <!-- TODO: This line should be updated daily !-->
-- **Size (in bytes):** `23,506` <!-- TODO: This line should be updated daily !-->
+- **File version:** `5 (2024, Saturday, October 19th at 03:36 pm PST)` <!-- TODO: This line should be updated daily !-->
+- **Line count (including blank lines and compiler line):** `0,730` <!-- This line doesn't need to be updated daily !-->
+- **Word count:** `04,800` <!-- TODO: This line should be updated daily !-->
+- **Character count (including spaces):** `31,798` <!-- TODO: This line should be updated daily !-->
+- **Character count (excluding spaces):** `27,364` <!-- TODO: This line should be updated daily !-->
+- **Size (in bytes):** `32,203` <!-- TODO: This line should be updated daily !-->
 - **Current article language:** `English (EN_USA)` / `Markdown (CommonMark)` / `HTML5 (HyperText Markup Language 5.3)`
 - **Encoding:** `UTF-8 (Emoji 12.0 or higher recommended)`
 - **All times are UTC-7 (PDT/Pacific Time)** `(Please also account for DST (Daylight Savings Time) for older/newer entries up until it is abolished/no longer followed)`
@@ -461,6 +655,23 @@ _End of specification._
 - [ ] No other changes in version 4
 
 </details> <!-- End of file history: version 4 section !-->
+
+---
+
+<details><summary><p lang="en"><b>Version 5 (2024, Saturday, October 19th at 03:36 pm PST)</b></p></summary>
+
+> This release was created by [:octocat: `@seanpm2001`](https://github.com/seanpm2001/)
+
+- [x] Updated the `Specification` section to include a notice about user friendly changes.
+- [x] Updated several sections
+- [x] Added definitions for terms, to make the document more user friendly
+- [x] Added the `See also` section
+- [x] Updated the file history section
+- - [x] Added an entry for version 5
+- [x] Updated the file info section
+- [ ] No other changes in version 5
+
+</details> <!-- End of file history: version 5 section !-->
 
 ---
 
