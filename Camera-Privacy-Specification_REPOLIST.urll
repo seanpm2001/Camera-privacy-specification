@@ -1,35 +1,50 @@
 ////URLL-version=3;
-//// Camera-Privacy-Specification_REPOLIST.urll
 //// https://github.com/seanpm2001/URLL-Specification
-//// A list of all Camera Privacy Specification repositories by @seanpm2001
+//// FileName: Camera-privacy-specification_REPOLIST.urll
+//// A list of all Camera privacy specification project repositories by @seanpm2001
+//// As of 2025, Friday, November 7th
 
-//// ----------------------------------------------------- \\\\
-//// Camera Privacy Specification
-//// ----------------------------------------------------- \\\\
-
-//// Home repository (1)
+//// Camera privacy specification Main (1)
 
 https://github.com/seanpm2001/Camera-privacy-specification
 
-//// Documentation repository (1)
+//// Camera privacy specification Core documentation (1)
 
 https://github.com/seanpm2001/Camera-privacy-specification_Docs
 
-//// Related (0)
+//// Camera privacy specification Website (1)
+
+https://github.com/seanpm2001/Camera-privacy-specification_Website
 
 //// ----------------------------------------------------- \\\\
-//// Repo count (Camera Privacy Specification): 2
-//// 1+1
+//// Repo count (Camera privacy specification): 3
+//// 1+1+1=3
 //// ----------------------------------------------------- \\\\
-//// Total repo count: 2
-//// 2+0
+
+//// ----------------------------------------------------- \\\\
+//// See also (2)
+
+//// Open Source Security Camera (1)
+
+https://github.com/seanpm2001/Open-source-security-camera
+
+//// CamCamPlus+ (1)
+
+https://github.com/seanpm2001/CamCamPlus
+
+//// ----------------------------------------------------- \\\\
+//// Repo count (See also): 2
+//// 1+1=2
+//// ----------------------------------------------------- \\\\
+//// Total repo count: 5
+//// 3+2=5
 //// ----------------------------------------------------- \\\\
 
 //// ----------------------------------------------------- \\\\
 //// File info
 //// File type: URLL v3 list file (*.urll)
-//// File version: 1 (2024, Tuesday, October 15th at 12:53 pm PST)
-//// Line count (including blank lines and compiler line): 36
+//// File version: 2 (2025, Friday, November 7th at 03:38 pm PST)
+//// Line count (including blank lines and compiler line): 51
 //// ----------------------------------------------------- \\\\
 
 //// End of file
